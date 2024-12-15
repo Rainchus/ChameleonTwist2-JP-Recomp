@@ -1,0 +1,21 @@
+# ninja log v5
+3	71	7558742084728587	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	855ccec572111a09
+1631	1705	7558742101068609	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-test	dc506f98f2d6da3c
+3	71	7558742084728587	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	855ccec572111a09
+1150	1241	7558742096428604	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-update	13e0ab5e335a9534
+71	1149	7558742095518592	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	610bc09f579c21e2
+1705	1807	7558742102098603	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	8a7824264ae0a921
+71	1149	7558742095518592	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	610bc09f579c21e2
+1241	1311	7558742097128603	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	88695b55e005b719
+1150	1241	7558742096428604	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-update	13e0ab5e335a9534
+1705	1807	7558742102098603	CMakeFiles/sdl2-populate-complete	8a7824264ae0a921
+1241	1311	7558742097128603	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	88695b55e005b719
+1311	1426	7558742098248599	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-configure	8daa48571d2732a1
+1311	1426	7558742098248599	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-configure	8daa48571d2732a1
+1427	1558	7558742099588612	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-build	296e5049394c0636
+1427	1558	7558742099588612	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-build	296e5049394c0636
+1558	1630	7558742100318600	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-install	ca3903e77da5739
+1558	1630	7558742100318600	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-install	ca3903e77da5739
+1631	1705	7558742101068609	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-test	dc506f98f2d6da3c
+1705	1807	7558742102098603	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate-complete	8a7824264ae0a921
+1705	1807	7558742102098603	C:/Users/Rainchus/Desktop/ChameleonTwistJPRecompiled - Copy/build-cmake/_deps/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	8a7824264ae0a921

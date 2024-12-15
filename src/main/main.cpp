@@ -119,7 +119,7 @@ bool SetImageAsIcon(const char* filename, SDL_Window* window)
 SDL_Window* window;
 
 ultramodern::renderer::WindowHandle create_window(ultramodern::gfx_callbacks_t::gfx_data_t) {
-    window = SDL_CreateWindow("Chameleon Twist: Recompiled", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1600, 960, SDL_WINDOW_RESIZABLE);
+    window = SDL_CreateWindow("Chameleon Twist 2: Recompiled", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1600, 960, SDL_WINDOW_RESIZABLE);
 #if defined(__linux__)
     SetImageAsIcon("icons/512.png", window);
     if (ultramodern::renderer::get_graphics_config().wm_option == ultramodern::renderer::WindowMode::Fullscreen) { // TODO: Remove once RT64 gets native fullscreen support on Linux
@@ -307,12 +307,12 @@ void reset_audio(uint32_t output_freq) {
 }
 
 //extern RspUcodeFunc njpgdspMain;
-extern RspUcodeFunc aspMain;
+extern RspUcodeFunc n_aspMain;
 
 RspUcodeFunc* get_rsp_microcode(const OSTask* task) {
     switch (task->t.type) {
     case M_AUDTASK:
-        return aspMain;
+        return n_aspMain;
 
     case M_NJPEGTASK:
         //return njpgdspMain;
@@ -329,10 +329,10 @@ gpr get_entrypoint_address();
 // array of supported GameEntry objects
 std::vector<recomp::GameEntry> supported_games = {
     {
-        .rom_hash = 0x0ff1b3a34ee3fb82ULL,
-        .internal_name = "Chameleon Twist",
-        .game_id = u8"ChameleonTwistJP",
-        .save_type = recomp::SaveType::Eep4k,
+        .rom_hash = 0x3dbe5b0062128d98ULL,
+        .internal_name = "Chameleon Twist2",
+        .game_id = u8"ChameleonTwist2JP",
+        .save_type = recomp::SaveType::AllowAll,
         .is_enabled = true,
         .entrypoint_address = get_entrypoint_address(),
         .entrypoint = recomp_entrypoint,
