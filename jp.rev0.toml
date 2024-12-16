@@ -15,3 +15,11 @@ stubs = [
 func = "func_800D4180"
 text = "    yield_self(rdram);"
 before_vram = 0x800D419C
+
+[[patches.hook]]
+func = "func_800497C8"
+text = "    load_overlays(0x207D50, 0x801FF7E0, 0x80B0);"
+
+[[patches.hook]]
+func = "func_800498A0"
+text = "    load_overlays(0x20FE00, 0x801FF7E0, 0x3B70);"
