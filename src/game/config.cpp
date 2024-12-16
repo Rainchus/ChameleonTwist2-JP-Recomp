@@ -19,18 +19,18 @@ constexpr std::u8string_view general_filename = u8"general.json";
 constexpr std::u8string_view graphics_filename = u8"graphics.json";
 constexpr std::u8string_view controls_filename = u8"controls.json";
 constexpr std::u8string_view sound_filename = u8"sound.json";
-constexpr std::u8string_view program_id = u8"Zelda64Recompiled";
+constexpr std::u8string_view program_id = u8"ChameleonTwist2Recompiled";
 
 constexpr auto res_default            = ultramodern::renderer::Resolution::Auto;
 constexpr auto hr_default             = ultramodern::renderer::HUDRatioMode::Clamp16x9;
 constexpr auto api_default            = ultramodern::renderer::GraphicsApi::Auto;
-constexpr auto ar_default             = ultramodern::renderer::AspectRatio::Expand;
+constexpr auto ar_default             = ultramodern::renderer::AspectRatio::Original;
 constexpr auto msaa_default           = ultramodern::renderer::Antialiasing::MSAA2X;
-constexpr auto rr_default             = ultramodern::renderer::RefreshRate::Display;
+constexpr auto rr_default             = ultramodern::renderer::RefreshRate::Manual;
 constexpr auto hpfb_default           = ultramodern::renderer::HighPrecisionFramebuffer::Auto;
 constexpr int ds_default              = 1;
 constexpr int rr_manual_default       = 60;
-constexpr bool developer_mode_default = false;
+constexpr bool developer_mode_default = true;
 
 static bool is_steam_deck = false;
 

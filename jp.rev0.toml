@@ -16,6 +16,13 @@ func = "func_800D4180"
 text = "    yield_self(rdram);"
 before_vram = 0x800D419C
 
+#always unlock all levels
+[[patches.hook]]
+func = "func_80026680"
+text = "    ctx->r3 = S32(0X8016 << 16); ctx->r3 = ADD32(ctx->r3, 0X0648); ctx->r4 = 0 | 0x3F; MEM_B(0x00, ctx->r3) = ctx->r4;"
+before_vram = 0x80026768
+
+
 [[patches.hook]]
 func = "func_800497C8"
 text = "    load_overlays(0x207D50, 0x801FF7E0, 0x80B0);"
