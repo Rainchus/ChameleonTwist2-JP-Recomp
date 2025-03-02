@@ -30,3 +30,8 @@ text = "    load_overlays(0x207D50, 0x801FF7E0, 0x80B0);"
 [[patches.hook]]
 func = "func_800498A0"
 text = "    load_overlays(0x20FE00, 0x801FF7E0, 0x3B70);"
+
+[[patches.hook]]
+func = "func_80064CF0"
+text = "    yield_self(rdram);"
+before_vram = 0x80064D70
